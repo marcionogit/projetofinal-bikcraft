@@ -1,0 +1,40 @@
+.header-fundo{
+    background-color: #000000;
+    color: white;
+    font-family: poppins;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-nav{
+    display: flex;
+    gap: 0px 40px;
+}
+
+.header-nav a{
+    color: #ffffff;
+    padding: 16px 0px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.header-nav a::after{
+    content: "";
+    display: block;
+    background-color: #ffffff;
+    width: 0px;
+    height: 2px;
+    transition: 0.3s;
+}
+
+.header-nav a:hover:after{
+    width: 100%;
+}
