@@ -1,5 +1,6 @@
 @import url(./header.css);
-body{
+@import url(./main.css);
+body, h1, p{
     margin: 0px;
     padding: 0px;
 }
@@ -12,4 +13,27 @@ ul{
 
 a{
     text-decoration: none;
+}
+
+img{
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+}
+
+.botao{
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    border-radius: 4px;
+    color: #332200;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 1px 2px rgb(0, 0, 0, 0.1);
+}
+
+.botao:hover{
+    background:linear-gradient(#c59401, #b37a08);
+    color: #000000;
 }
