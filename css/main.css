@@ -25,6 +25,8 @@
     margin-bottom: 32px;
     font-size: 64px;
     line-height: 1.125;
+    font-family: 'poppins';
+    font-weight: 600;
 }
 
 .introducao-info p{
@@ -37,4 +39,55 @@
     height: 100%;
     object-fit: cover;
 }
+.escolha{
+    padding-top: 60px;
+}
 
+.escolha ul{
+    display: flex;
+    gap: 40px;
+    padding: 0 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.escolha h2{
+    color: #111111;
+    font-size: 64px;
+    font-family: 'poppins';
+    margin-bottom: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.escolha h2 > span{
+    color: var(--cor_icone);
+}
+
+.escolha h3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 32px;
+    font-family: 'roboto';
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.escolha ul h3::before{
+    content: "";
+    width: 12px;
+    height: 8px;
+    background-color: var(--cor_icone);
+    display: inline-block;
+}
+
+.escolha ul span{
+    color: #595959;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 20px;
+}
