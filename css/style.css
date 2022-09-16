@@ -1,9 +1,13 @@
 @import url(./header.css);
 @import url(./main.css);
-@import url(./detalhes.css);
+@import url(./utilitarios.css);
+html{
+    height: 3000px;
+}
 body, h1,h2,h3,h4, p{
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto';
 }
 
 ul{
@@ -23,26 +27,3 @@ img{
     border-radius: 4px;
 }
 
-p{
-    font-family: 'Roboto';
-    font-weight: 400;
-}
-
-.botao{
-    display: inline-block;
-    padding: 16px 32px;
-    background: linear-gradient(#ffbf00, #f2a50c);
-    border-radius: 4px;
-    color: #332200;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'poppins';
-    box-shadow: 0 1px 2px rgb(0, 0, 0, 0.1);
-    
-}
-
-.botao:hover{
-    background:linear-gradient(#c59401, #b37a08);
-    color: #000000;
-}

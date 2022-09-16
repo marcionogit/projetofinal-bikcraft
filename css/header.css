@@ -1,8 +1,5 @@
 .header-fundo{
     background-color: #000000;
-    color: white;
-    font-family: poppins;
-    font-weight: 400;
 }
 
 .header-menu{
@@ -10,9 +7,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    box-sizing: border-box;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .header-nav{
