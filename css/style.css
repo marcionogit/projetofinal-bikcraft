@@ -1,9 +1,14 @@
+@import url(./utilitarios.css);
 @import url(./header.css);
 @import url(./main.css);
-@import url(./utilitarios.css);
+@import url(./escolha.css);
+@import url(./tecnologias.css);
+@import url(./parceiros.css);
+
 html{
-    height: 3000px;
+    min-height: 3000px;
 }
+
 body, h1,h2,h3,h4, p{
     margin: 0px;
     padding: 0px;
