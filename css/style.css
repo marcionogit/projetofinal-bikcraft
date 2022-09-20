@@ -1,11 +1,11 @@
 @import url(./utilitarios.css);
-@import url(./header.css);
-@import url(./main.css);
-@import url(./escolha.css);
-@import url(./tecnologias.css);
-@import url(./parceiros.css);
-@import url(./depoimentos.css);
-@import url(./seguros.css);
+@import url(./home/header.css);
+@import url(./home/main.css);
+@import url(./home/escolha.css);
+@import url(./home/tecnologias.css);
+@import url(./home/parceiros.css);
+@import url(./home/depoimentos.css);
+@import url(./home/seguros.css);
 
 html{
     padding-bottom: 100px;
