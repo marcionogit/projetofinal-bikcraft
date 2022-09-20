@@ -1,12 +1,6 @@
-.parceiros-grid{
-    max-width: 1400px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: center;
-    padding: 0 20px;
+.parceiros{
+    padding: 60px 0px;
 }
-
 .parceiros li{
     padding: 32px;
     display: flex;
@@ -21,10 +15,18 @@
     border-top: 2px solid var(--cor_mais_clara);
 }
 
+.parceiros-grid{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 0 20px;
+}
 .parceiros-grid img{
     width: 160px;
     max-width: 100%;
-    height: 40px;
+    max-height: 40px;
     margin: 0 auto;
 }
 
@@ -32,7 +34,7 @@
 color: #111111;
 font-size: 64px;
 font-family: 'poppins';
-padding: 48px 20px;
+padding: 0px 20px;
 margin-bottom: 60px;
 }
 

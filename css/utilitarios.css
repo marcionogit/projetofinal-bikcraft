@@ -23,6 +23,15 @@
     color: #000000;
 }
 
+.botao.secundario{
+    background: linear-gradient(#2E2E2E, #272727);
+    color: #ffffff;
+}
+
+.botao.secundario:hover{
+    background: linear-gradient(#494949, #494949);
+}
+
 .container{
     box-sizing: border-box;
     max-width: 1200px;

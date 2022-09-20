@@ -1,0 +1,72 @@
+.seguros{
+    background-color: #111111;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.seguros h2{
+    grid-column: 1 / -1;
+    padding: 0px 20px;
+}
+
+.seguros > h2 > span{
+    color: var(--cor_icone);
+}
+
+.seguros h3{
+    color: #9C9C9C;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.seguros ul{
+    color: #ffffff;
+    margin-bottom: 20px;
+    position: relative;
+}
+.seguros li{
+    display: flex;
+    align-items: center;
+}
+
+.seguros li::before{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/icones/lista.svg);
+    width: 13px;
+    height: 9px;
+    align-items: center;
+    position: absolute;
+    left: -21px;
+}
+
+.seguros li + li{
+    margin-top: 20px;
+}
+
+.seguros-mensal {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: #000000;
+    padding: 32px 32px 32px 60px;
+}
+
+.seguros-mensal span{
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.seguros-mensal span::after{
+    content: "mensal";
+    display: block;
+    font-size: 14px;
+    color: #9C9C9C;
+}
+
+#ouro{
+    color: var(--cor_icone);
+}

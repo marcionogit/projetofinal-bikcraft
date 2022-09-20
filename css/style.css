@@ -4,14 +4,15 @@
 @import url(./escolha.css);
 @import url(./tecnologias.css);
 @import url(./parceiros.css);
+@import url(./depoimentos.css);
+@import url(./seguros.css);
 
 html{
-    min-height: 3000px;
+    padding-bottom: 100px;
 }
-
-body, h1,h2,h3,h4, p{
+body, h1,h2,h3,h4,p,blockquote{
     margin: 0px;
-    padding: 0px;
+
     font-family: 'Roboto';
 }
 
