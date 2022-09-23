@@ -39,7 +39,7 @@
 }
 
 .titulo-g{
-    font-size: 64px;
+    font-size: 4.1rem;
     line-height: 1.125;
     font-family: 'roboto';
     font-weight: 600;
@@ -51,4 +51,20 @@
     font-size: 24px;
     line-height: 1.5;
     color: #B2B2B2;
+}
+
+@media(max-width:1200px){
+    .titulo-g{
+        font-size: 3rem;
+    }
+
+    .texto-bg-preto{
+        font-size: 1.15rem;
+    }
+}
+
+@media(max-width:800px){
+    .titulo-g{
+        font-size: 2rem;
+    }
 }

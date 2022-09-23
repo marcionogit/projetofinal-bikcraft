@@ -23,8 +23,7 @@
     color: #332200;
     font-size: 2rem;
     margin-bottom: 32px;
-    max-width: 32ch;
-    
+    max-width: 32ch;  
 }
 
 .depoimento-conteudo {
@@ -53,4 +52,24 @@
     font-weight: 500;
     color: #664400;
     font-size: 20px;
+    display: block;
+}
+
+@media(max-width:800px){
+    .depoimentos-grid{
+        grid-template-columns: 1fr;
+    }
+    
+    .depoimentos-grid img{
+        height: 200px;
+    }
+
+    .depoimentos-grid p{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .depoimento-conteudo span{
+        text-align: center;
+    }
 }

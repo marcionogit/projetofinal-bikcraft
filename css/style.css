@@ -6,10 +6,8 @@
 @import url(./home/parceiros.css);
 @import url(./home/depoimentos.css);
 @import url(./home/seguros.css);
+@import url(./home/footer.css);
 
-html{
-    padding-bottom: 100px;
-}
 body, h1,h2,h3,h4,p,blockquote{
     margin: 0px;
 
@@ -28,7 +26,8 @@ a{
 }
 
 img{
-    width: 100%;
+    width:100%;
+    height: auto;
     display: block;
     border-radius: 4px;
 }

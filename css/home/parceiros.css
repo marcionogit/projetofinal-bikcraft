@@ -41,3 +41,13 @@ margin-bottom: 60px;
 .parceiros span{
     color: var(--cor_icone);
 }
+
+@media(max-width:800px){
+    .parceiros-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .parceiros h2{
+        font-size: 2rem;
+    }
+}
