@@ -76,3 +76,10 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media(max-width:420px){
+
+    .seguros span{
+        font-size: 0.8rem;
+    }
+}
