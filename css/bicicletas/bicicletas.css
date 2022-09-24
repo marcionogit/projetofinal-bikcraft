@@ -1,0 +1,27 @@
+.bicicletas-bik{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 0px;
+}
+
+.bicicletas-bik-conteudo h2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.bicicletas-bik-conteudo p{
+    margin-bottom: 20px;
+}
+
+.bicicletas-bik-conteudo li{
+    margin-bottom: 8px;
+}
+
+.bicicletas-bik-lista{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    place-items: end;
+}

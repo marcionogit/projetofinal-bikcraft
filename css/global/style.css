@@ -10,8 +10,12 @@
 @import url(../home/seguros.css);
 @import url(../home/footer.css);
 
+
+/*BICICLETAS*/
+@import url(../bicicletas/bicicletas.css);
+
 /*TERMOS E CONDIÇÕES*/
-    @import url(../termos/termos.css);
+@import url(../termos/termos.css);
 
 body, h1,h2,h3,h4,p,blockquote{
     margin: 0px;

@@ -82,4 +82,11 @@
     .titulos-internos{
         padding: 40px 0px;
     }
+
+    .titulos-internos p{
+        text-transform: lowercase;
+        font-size: 1rem;
+    }   
+
+       
 }
