@@ -1,0 +1,39 @@
+@import url(../global/utilitarios.css);
+
+/*HOME*/
+@import url(../home/header.css);
+@import url(../home/main.css);
+@import url(../home/escolha.css);
+@import url(../home/tecnologias.css);
+@import url(../home/parceiros.css);
+@import url(../home/depoimentos.css);
+@import url(../home/seguros.css);
+@import url(../home/footer.css);
+
+/*TERMOS E CONDIÇÕES*/
+    @import url(../termos/termos.css);
+
+body, h1,h2,h3,h4,p,blockquote{
+    margin: 0px;
+
+    font-family: 'Roboto';
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'roboto';
+}
+
+img{
+    width:100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
