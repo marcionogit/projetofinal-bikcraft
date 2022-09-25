@@ -1,27 +1,112 @@
+#bicicletas-fundo-preto {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #111111;
+    color: #b7b7b7;
+    padding: 60px 20px 40px 20px;
+    box-shadow: inset 380px 0px 0px #ffffff;
+    box-sizing: border-box;
+}
+
+#bicicletas-fundo-preto h2{
+    color: #ffffff;
+}
+
 .bicicletas-bik{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 40px;
-    padding: 60px 0px;
+    padding: 60px 20px;
+    color: #595959;
+}
+
+.bicicletas-preco {
+    position: relative;
+}
+
+.bicicletas-preco span{
+    position: absolute;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 8px 16px 8px 8px;
+    display: inline-block;
+    border-radius: 4px;
+    top: 0px;
+    right: 0px;
+    margin-top: 20px;
 }
 
 .bicicletas-bik-conteudo h2{
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
+    color: #111111;
+}
+
+.bicicletas-bik-conteudo h2::before{
+    content: "";
+    display: block;
+    height: 8px;
+    width: 12px;
+    background-color: var(--cor_icone);
+    margin-bottom: 8px;
 }
 
 .bicicletas-bik-conteudo p{
-    margin-bottom: 20px;
+    margin-bottom: 32px;
+
 }
 
 .bicicletas-bik-conteudo li{
-    margin-bottom: 8px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 12px;
+    align-items: center;
+}
+
+.bicicletas-bik-conteudo ul > li > img{
+    width: 24px;
 }
 
 .bicicletas-bik-lista{
     display: grid;
     grid-template-columns: auto 1fr;
     place-items: end;
+}
+
+.bicicletas-bik-lista a > img{
+    width: 18px;
+    display: inline;
+    padding-left: 8px;
+}
+
+
+@media(max-width:800px){
+    .bicicletas-bik{
+        grid-template-columns: 1fr;
+    }
+
+    .bicicletas-bik-conteudo h2{
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    #bicicletas-fundo-preto{
+        box-shadow:none;
+    }
+}
+
+@media(max-width:800px){
+    .bicicletas-bik-lista{
+        grid-template-columns: 1fr;
+        place-items: start;
+    }
+
+    .bicicletas-bik-lista ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
