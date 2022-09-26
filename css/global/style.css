@@ -7,7 +7,6 @@
 @import url(../home/tecnologias.css);
 @import url(../home/parceiros.css);
 @import url(../home/depoimentos.css);
-@import url(../home/seguros.css);
 @import url(../home/footer.css);
 
 
@@ -17,10 +16,21 @@
 /*TERMOS E CONDIÇÕES*/
 @import url(../termos/termos.css);
 
-body, h1,h2,h3,h4,p,blockquote{
+/*SEGUROS*/
+@import url(../seguros/seguros-home.css);
+@import url(../seguros/seguros.css);
+@import url(../seguros/perguntas.css);
+
+
+body,p,blockquote{
     margin: 0px;
 
     font-family: 'Roboto';
+}
+
+h1,h2,h3,h4{
+    font-family: 'poppins';
+    margin: 0px;
 }
 
 ul{

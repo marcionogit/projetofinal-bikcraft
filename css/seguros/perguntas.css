@@ -1,0 +1,14 @@
+.perguntas{
+    padding: 120px 0;
+}
+
+.perguntas h2{
+    color: #111111;
+    font-size: 3.75rem;
+    font-family: 'poppins';
+    padding: 0 20px;
+}
+
+.perguntas span{
+    color: var(--cor_icone);
+}
