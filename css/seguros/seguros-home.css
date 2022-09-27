@@ -4,7 +4,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     align-items: center;
-    padding: 60px 60px;
+    padding: 60px 20px;
 }
 
 .seguros h2{

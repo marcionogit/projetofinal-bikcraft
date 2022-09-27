@@ -1,14 +1,49 @@
 .perguntas{
-    padding: 120px 0;
+    padding: 100px 20px;
+    line-height: 1.5;
 }
 
 .perguntas h2{
     color: #111111;
     font-size: 3.75rem;
     font-family: 'poppins';
-    padding: 0 20px;
+    padding: 20px 0px;
 }
 
 .perguntas span{
     color: var(--cor_icone);
+}
+
+.perguntas dl{
+
+}
+
+.perguntas dl > div:nth-child(odd){
+    background-color: #f7f7f7;
+    border-radius: 4px;
+}
+
+.perguntas dt{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 16px 32px;
+    margin-left: -16px;
+}
+
+.perguntas dt::before{
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    background-color:var(--cor_icone);
+    margin-bottom: 2px;
+    margin-right: 4px;
+}
+
+.perguntas dd{
+    color: #111111;
+    font-size: 16px;
+    max-width: 75ch;
+    margin-left: 16px;
+    padding-bottom: 40px;
 }
