@@ -12,6 +12,11 @@
 
 /*BICICLETAS*/
 @import url(../bicicletas/bicicletas.css);
+@import url(../bicicletas/bikcraft.css);
+@import url(../bicicletas/nimbus.css);
+@import url(../bicicletas/magic.css);
+@import url(../bicicletas/nebula.css);
+
 
 /*TERMOS E CONDIÇÕES*/
 @import url(../termos/termos.css);
