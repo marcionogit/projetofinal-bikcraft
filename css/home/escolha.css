@@ -3,6 +3,10 @@
     padding-top: 60px;
 }
 
+.escolha img{
+    width: 100%;
+}
+
 .escolha ul{
     display: flex;
     gap: 40px;

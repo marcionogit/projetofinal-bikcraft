@@ -21,6 +21,10 @@
     color: #595959;
 }
 
+.bicicletas-bik img{
+    width: 100%;
+}
+
 .bicicletas-preco {
     position: relative;
 }

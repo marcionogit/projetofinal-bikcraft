@@ -1,0 +1,130 @@
+#contato{
+    background-image: linear-gradient(to bottom, #111111 600px, #f7f7f7 0%);
+}
+
+.contato-bg{
+    background-color: #000000;
+    padding: 60px 60px 40px 60px;
+}
+
+.contato-bg h2{
+    color: #ffffff;
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'roboto';
+}
+
+.contato{
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+}
+
+.contato a{
+    color:#b7b7b7;
+    width: max-content;
+}
+
+.contato a:hover{
+    color: #ffffff;
+}
+
+.contato-endereco{
+    color: #b7b7b7;
+    display: grid;
+    gap: 16px 0px;
+    margin-bottom: 32px;
+}
+
+.contato-endereco li{
+    padding-left: 28px;
+}
+
+.contato-endereco :first-child{
+    content: "";
+    display: block;
+    background-image: url(../../img/icones/local.svg);
+    background-repeat: no-repeat;
+    padding-left: 28px;
+}
+
+.contato-links{
+    display: grid;
+    gap: 12px 0px;
+}
+
+.contato-links :first-child{
+    content: '';
+    display: inline-block;
+    background-image: url(../../img/icones/email.svg);
+    background-repeat: no-repeat;
+    padding-left: 28px;
+}
+
+.contato-links a{
+    padding-left: 28px;
+    font-style: normal;
+}
+
+.contato-links :last-child{
+    display: block;
+    background: url(../../img/icones/telefone.svg);
+    background-repeat: no-repeat;
+    padding-left: 24px;
+}
+
+.contato-links a:last-child{
+    margin: 28px 0px ;
+}
+
+.contato-img{
+    display: flex;
+    gap: 32px;
+    margin-left: 28px;
+    padding: 34px 0px;
+}
+
+.contato-img img{
+    width: 32px;
+}
+
+.formulario{
+    background-color: #ffffff;
+    padding: 60px;
+}
+
+.form {
+    display: grid;
+    gap: 20px;
+}
+
+.form-nometel{
+    display: grid;
+   
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea{
+    display: grid;
+    width: 100%;
+    background-color: #F7F7F7;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    padding: 20px 12px;
+    font-size: 16px;
+    margin-top: 4px;
+    box-sizing: border-box;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+
+.form textarea:focus{
+    outline: none;
+    border: 1px solid var(--cor_icone);
+    box-shadow: 0 0 0 2px #fea;
+}

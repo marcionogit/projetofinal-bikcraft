@@ -23,6 +23,10 @@
 @import url(../seguros/seguros.css);
 @import url(../seguros/perguntas.css);
 
+/*CONTATOS*/
+@import url(../contatos/contato.css);
+@import url(../contatos/local.css);
+
 
 body,p,blockquote{
     margin: 0px;
@@ -47,7 +51,7 @@ a{
 }
 
 img{
-    width:100%;
+
     height: auto;
     display: block;
     border-radius: 4px;

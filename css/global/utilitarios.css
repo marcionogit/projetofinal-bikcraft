@@ -16,6 +16,8 @@
     font-weight: bold;
     font-family: 'poppins';
     box-shadow: 0 1px 2px rgb(0, 0, 0, 0.1);
+    border: none;
+    width: max-content;
 }
 
 .botao:hover{
