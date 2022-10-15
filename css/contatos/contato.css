@@ -99,8 +99,7 @@
 }
 
 .form-nometel{
-    display: grid;
-   
+    display: grid; 
     gap: 20px;
     grid-template-columns: 1fr 1fr;
 }
@@ -127,4 +126,32 @@
     outline: none;
     border: 1px solid var(--cor_icone);
     box-shadow: 0 0 0 2px #fea;
+}
+
+@media(max-width:900px){
+    .contato{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:900px){
+    .form-nometel{
+        grid-template-columns: 1fr;
+    }
+
+    .formulario{
+        padding: 20px;
+    }
+
+    .contato-bg{
+        background-color: #000000;
+        padding: 20px 20px 20px 20px;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:900px){
+    .contato-bg{
+        padding: 10px 10px 10px 10px;
+    }
 }

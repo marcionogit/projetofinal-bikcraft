@@ -62,3 +62,9 @@
 }
 
 
+@media(max-width:900px){
+    .local{
+        grid-template-columns: 1fr;
+    }
+}
+
