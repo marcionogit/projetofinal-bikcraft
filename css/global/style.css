@@ -14,7 +14,6 @@
 @import url(../bicicletas/bicicletas.css);
 @import url(../bicicletas/bikcraft.css);
 
-
 /*TERMOS E CONDIÇÕES*/
 @import url(../termos/termos.css);
 
@@ -26,6 +25,9 @@
 /*CONTATOS*/
 @import url(../contatos/contato.css);
 @import url(../contatos/local.css);
+
+/*ORÇAMENTOS*/
+@import url(../orcamento/orcamento.css);
 
 
 body,p,blockquote{
