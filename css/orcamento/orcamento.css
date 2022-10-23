@@ -2,6 +2,11 @@
     padding: 60px;
 }
 
+#orcamento .form input{
+    padding: 14px 18px;
+    margin-bottom: 8px;
+}
+
 .orcamento-bg{
     background-image: linear-gradient(to bottom, #111111 30%, #f7f7f7 0%);
     padding: 0 60px;
@@ -18,7 +23,7 @@
     display: flex;
     align-items: center;
     position: relative;
-    
+    grid-column: 1 / -1;
 }
 
 #orcamento h2::before{
@@ -75,10 +80,6 @@
     font-family: 'poppins';
 }
 
-#orcamento .form input{
-    padding: 14px 18px;
-    margin-bottom: 8px;
-}
 
 .orcamento label:hover{
     background-color: #404040;
@@ -154,4 +155,50 @@
 .orcamento input:checked + label + .orcamento-detalhe{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+@media(max-width:1000px){
+    #orcamento .form{
+        padding: 30px;
+    }
+
+    
+.orcamento{
+    padding: 30px;
+}   
+}
+
+@media(max-width:1000px){
+    .orcamento-bg{
+        padding: 0 20px 60px 20px;
+    }
+}
+
+@media(max-width:950px){
+#orcamento .form-nometel{
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:800px){
+    .orcamento-bg{
+        grid-template-columns: 1fr;
+    }   
+
+    #orcamento .form-nometel{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:600px){
+    #orcamento .form-nometel{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:400px){
+    .orcamento{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
 }
