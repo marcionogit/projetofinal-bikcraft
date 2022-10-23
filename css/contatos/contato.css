@@ -96,7 +96,11 @@
 .form {
     display: grid;
     gap: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 0 4px 4px 0;
 }
+
 
 .form-nometel{
     display: grid; 
