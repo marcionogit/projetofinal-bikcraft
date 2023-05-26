@@ -5,7 +5,7 @@ Após o término do curso de **UI Design da Origamid**, foi nos dada a missão d
 com diversas páginas e muitas funcionalidades, aplicando todo o conhecimento e técnicas aprendidas ao longo do curso. 
 
 ## 💻 Visão geral do projeto.
-Este é um projeto desenvolvido no curso de HTML e CSS da Origamid, com o objetivo de criar um site para a venda de três modelos de bicicletas. Cada modelo possui sua própria página com características específicas. O site também inclui uma página de cadastro, embora não haja ligação com banco de dados.
+Este é um projeto desenvolvido no curso de **HTML e CSS** da **Origamid**, com o objetivo de criar um site para a venda de três modelos de bicicletas. Cada modelo possui sua própria página com características específicas. O site também inclui uma página de cadastro, embora não haja ligação com banco de dados.
 
 ## 💙🧡 Tecnologias Utilizadas
 - **HTML**: Para estrutura do site.
